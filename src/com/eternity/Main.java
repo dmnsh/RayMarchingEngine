@@ -4,7 +4,7 @@ import javax.swing.*;
 public class Main {
 
     public static void main(String[] args) {
-	    JFrame frame = new JFrame("Ray Marching");
+	    JFrame frame = new JFrame("Ray Marching Engine");
 	    frame.setSize(700, 700);
 	    frame.add(new Renderer());
 	    frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
